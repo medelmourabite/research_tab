@@ -1,0 +1,20 @@
+body[dir="rtl"] {
+
+}
+
+body[dir="rtl"] .container .body ul {
+
+}
+
+body[dir="rtl"] .container .body ul li {
+    
+}
+
+
+body[dir="rtl"] .container .body ul li .handle {
+    order: 1;
+}
+
+body[dir="rtl"] .container .body ul li > div {
+    padding: 8px 16px 8px 8px;
+}

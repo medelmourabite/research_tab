@@ -1,0 +1,97 @@
+.container  {
+    margin: auto;
+    max-width: 52rem;
+    position: relative;
+}
+
+.container .menu {
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    padding: 1rem;
+    background: #F1F1F1;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.container .body {
+
+}
+
+.container .body .btn-groups {
+    display: flex;
+    justify-content: center;
+}
+
+.container .body .btn-groups > button {
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    min-width: 62px;
+    margin: 8px;
+}
+
+.container .body ul {
+    margin: auto;
+    max-width: 34rem;
+    padding: 0;
+}
+
+.container .body ul li {
+    margin: 1rem auto;
+    list-style: none;
+    padding: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.container .body ul li > div {
+    width: 100%;
+    padding: 8px 8px 8px 16px;
+    border: 1px solid #ccc;
+    background-color: #FAFAFA;
+    border-radius: 0 4px 4px 4px;
+    min-width: calc(100% - 56px);
+    min-height: 32px;
+}
+
+.container .body ul li > div:focus {
+    outline: none;
+    border-color:#1f88ec;
+}
+
+.container .body ul li > div:focus ~ .handle {
+    border-color:#1f88ec;
+}
+
+.container .body ul li .handle{
+    width: 18px;
+    margin-right: -1px;
+    cursor: grab;
+    z-index: 1;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    padding: 6px;
+}
+
+.container .body ul li .options{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.container .body ul li .options > img{
+    width: 20px;
+    cursor: pointer;
+    color: red;
+    padding: 2px;
+    background: #FEFEFE;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px rgb(189 185 185 / 20%);
+} 

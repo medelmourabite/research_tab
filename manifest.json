@@ -1,0 +1,13 @@
+{
+    "name": "Research tab",
+    "version": "1.0",
+    "description": "An extension to help you research",
+    "permissions": ["storage", "contextMenus"],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "background": { 
+        "scripts": ["background.js"]
+      },
+    "manifest_version": 2
+}
